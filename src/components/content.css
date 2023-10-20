@@ -1,0 +1,25 @@
+.tab-insta-logo {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 6px 16px 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #f087b1;
+}
+
+.tab-logo {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 6px 16px 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #94a2b3;
+}

@@ -1,0 +1,149 @@
+.insights-one {
+  width: 75px;
+  height: 27px;
+  padding: 6px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #94a2b3;
+}
+
+.card-one {
+  width: 380px;
+  height: 153px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+.card-one-heading {
+  text-align: center;
+  color: #94a2b3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+
+}
+
+.insight-card-one-content {
+  color: #94a2b3;
+  padding: 6px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #94a2b3;
+  text-align: center;
+  font-size: 9px;
+  gap: 4px;
+}
+
+.uni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  /* border: red 3px solid; */
+}
+
+.ins-mid {
+  color: #000;
+
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.brand-content {
+  color: #000;
+
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-two {
+  width: 380px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.card-two-content-heading {
+  color: #94a2b3;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card-two-content {
+  color: #7b809a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+}
+
+.card-two-content p {
+  padding-bottom: 5px;
+}
+
+.card-heading {
+  padding-top: 40px;
+  color: #212121;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  /* 116.667% */
+}
+
+.content-tst {
+  font-size: 8px;
+  color: #77838f;
+  text-align: center;
+}
+
+/* .tab-styling{
+  font-size: 18px; 
+  font-weight: bold;
+  color: palevioletred;
+} */
+
+
+
+/* resonsive */
+
+@media (max-width: 600px) {
+
+  .uni {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .card-heading {
+    text-align: center;
+  }
+
+  tab{
+    color: pink;
+  }
+
+}

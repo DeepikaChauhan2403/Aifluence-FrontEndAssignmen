@@ -1,0 +1,195 @@
+.horizontal-card {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 300px;
+  height: 248px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire container */
+}
+
+.logo{
+  position: absolute;
+  left: 85%;
+  bottom: 80%;
+  z-index: 2;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+}
+
+h3 {
+  color: #272d4e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  margin: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  width: 30px;
+}
+
+.circular-icon {
+  width: 19.047px;
+  height: 18px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  /* Makes it a circle */
+  margin-right: 10px;
+  /* Adjust the spacing as needed */
+  /* Add any content or icon you want to display within the circular icon */
+}
+
+.tick-mark {
+  position: relative;
+  left: -17px;
+  top: -7px;
+}
+
+.card-content-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.content-header {
+  color: #94a2b3;
+  max-width: 80%;
+}
+
+.icon-content-header {
+  color: #94a2b3;
+}
+
+.btn-content-header {
+  display: inline-flex;
+  height: 42px;
+  padding: 6px 16px 6px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #94a2b3;
+  color: #94a2b3;
+
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  /* 93.333% */
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.btn-content-header-one {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 6px 16px 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #94a2b3;
+}
+
+.btn-content-header-two {
+  display: flex;
+  width: 53px;
+  height: 19px;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #219653;
+}
+
+.subheader-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  height: 180px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #e2edfc;
+  margin: 10px 0px 15px 10px;
+  padding: 12px;
+}
+
+@media (max-width: 1465px) {
+  .subheader-content {
+    overflow-x: scroll;
+  }
+}
+
+.subheader-card-content {
+  width: 380px;
+  height: 153px;
+  border-radius: 12px;
+  background: var(--White, #fff);
+  /* Shadow 1 */
+  /* border: red 2px solid; */
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sub-header-logo {
+  width: 15px;
+  height: 13.5px;
+}
+
+
+/* responsive  */
+
+@media (max-width: 600px) {
+
+  .horizontal-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+
+
+  .image {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .logo{
+    left: 80%;
+    bottom: 75%;
+  }
+}
